@@ -15,7 +15,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 client.once('ready', () => {
 	console.log('Logged in as Coalition Integration Bot!');
-	//client.channels.cache.get('830305706573561880').send("Bot Restarted")
+	//client.channels.cache.get('830305706573561880').send("I'm back bitches!")
 
 	client.guilds.cache.forEach(guild => {
 		console.log(guild.id + ' | ' + guild.name);
